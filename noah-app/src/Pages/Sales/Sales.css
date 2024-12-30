@@ -4,9 +4,10 @@
   }
   
   .add-sale {
+    /* overflow-y: hidden;  ----------------------------*/
     height: 900px;
     max-width: 1900px;
-    margin-top: 65px ;
+    /* margin-top: 0px ; */
     margin-left: 180px;
     padding: 20px;
     background-color: #ffffff;
@@ -63,14 +64,14 @@
    
   /* Product Section - Horizontal */
    .addsale-product-section {
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
   
   .addsale-product-row {
     display: flex;
     gap: 10px;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .addsale-product-row input {

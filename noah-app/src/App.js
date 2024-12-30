@@ -7,6 +7,7 @@ import ListProduct from './Pages/Product/ProductList';
 import AddProduct from './Pages/Product/AddProduct';
 import Signup from './Pages/Auth/Signup';
 import AddSale from './Pages/Sales/AddSale';
+import ListSale from './Pages/Sales/ListSale';
 // import AppRoutes from './routes/AppRoutes';
 
 function App() {
@@ -14,12 +15,14 @@ function App() {
     <div className="App">
 
       {/* pending work */}
-
+{/* 
       <Navbar />
       <div style={{ display: "flex" }}>
         <Sidebar />
       </div>
-      <AddSale/>
+      <AddSale/> */}
+
+      <ListSale/>
 
       {/* sign up form  */}
       {/* <Signup/> */}

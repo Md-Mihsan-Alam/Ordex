@@ -67,3 +67,19 @@ export const verifyLoginData = async (loginData) => {
         return { status: 500, message: 'An error occurred' }; // Server error
     }
 };
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+const salesAPI = 'https://6766dc45560fbd14f18c5406.mockapi.io/dashboard';
+
+export const saveSaleDataToServer = async (Add_Sale_Data) => {
+  try {
+    const response = await axios.post(`${salesAPI}/Add_Sale_Data`, Add_Sale_Data);
+    return response.data;
+  } catch (error) {
+    console.error('Error saving sale data:', error);
+    throw error; // Re-throw for error handling in calling code
+  }
+};
